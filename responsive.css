@@ -31,4 +31,53 @@
   .hero-content p {
     font-size: 18px;
   }
+  .plants-heading,
+  .lastest-heading,
+  .plant-lover-title {
+    width: 100%;
+    font-size: 36px;
+  }
+
+  .plants-heading .title,
+  .lastest-heading .title {
+    font-size: 36px;
+  }
+
+  .plants-heading .subtitle,
+  .lastest-heading .subtitle {
+    font-size: 18px;
+  }
+
+  .plants-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plant-lover {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .plant-right {
+    margin-top: 0;
+    text-align: center;
+  }
+  .plant-lover-title {
+    text-align: left;
+  }
+  .plant-right ul {
+    text-align: left;
+    padding: 0 20px;
+  }
+  .plant-right ul li {
+    font-size: 18px;
+  }
+
+  .latest-content-wrapper {
+    flex-direction: column;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
 }

@@ -61,3 +61,107 @@ html {
   font-size: 22px;
   opacity: 50%;
 }
+
+/* Plant section */
+.plants-section {
+  padding: 50px 0;
+}
+
+.plants-heading {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.lastest-heading {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.plants-heading .title {
+  font-size: 50px;
+}
+
+.plants-heading .subtitle {
+  font-size: 22px;
+  opacity: 50%;
+}
+
+.plants-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 1rem;
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card .name {
+  font-size: 22px;
+}
+
+.card .price {
+  font-size: 22px;
+}
+
+.card .addToCardBtn {
+  background: #e95a08;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* Plant lover section */
+
+.plant-lover-section {
+  padding: 100px 0;
+}
+
+.plants-heading span {
+  color: #e95a08;
+}
+.plant-lover {
+  display: flex;
+  gap: 80px;
+}
+
+.plant-left {
+  position: relative;
+}
+
+.trusted-badge {
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 200px;
+}
+
+.plant-right {
+  margin-top: 30px;
+}
+
+.plant-lover-title {
+  font-size: 50px;
+  width: 70%;
+}
+
+.plant-right ul {
+  margin-top: 20px;
+}
+
+.plant-right ul li {
+  margin-bottom: 20px;
+  font-size: 22px;
+  opacity: 50%;
+}
