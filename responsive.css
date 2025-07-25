@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .navbar {
+    gap: 10px;
+  }
+
+  .nav-right ul {
+    display: none;
+  }
+
+  .cart {
+    display: flex;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 40px;
+    text-align: start;
+  }
+
+  .hero-heading {
+    font-size: 42px;
+    width: 50%;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+}

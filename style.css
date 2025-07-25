@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Noto Serif", serif;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.nav-right ul li a.active {
+  font-weight: bold;
+}
+
+/* Banner content */
+.hero {
+  padding: 80px 0;
+  display: flex;
+  gap: 100px;
+  align-items: end;
+}
+
+.hero-heading {
+  font-size: 65px;
+}
+
+.hero-heading span {
+  color: #e95a08;
+}
+
+.hero-content p {
+  font-size: 22px;
+  opacity: 50%;
+}
