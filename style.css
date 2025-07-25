@@ -6,6 +6,13 @@
 html {
   font-family: "Noto Serif", serif;
 }
+
+a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 50%;
+}
+
 .container {
   width: 1240px;
   margin: 0 auto;
@@ -39,6 +46,7 @@ html {
 
 .nav-right ul li a.active {
   font-weight: bold;
+  opacity: 100%;
 }
 
 /* Banner content */
@@ -62,6 +70,9 @@ html {
   opacity: 50%;
 }
 
+.hero-img {
+  width: 100%;
+}
 /* Plant section */
 .plants-section {
   padding: 50px 0;
@@ -103,6 +114,7 @@ html {
 }
 
 .card .name {
+  margin-top: 20px;
   font-size: 22px;
 }
 
@@ -237,14 +249,9 @@ html {
 }
 
 .card .content a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-weight: bold;
-  font-size: 14px;
+  color: white;
+  opacity: 100%;
+  text-decoration: underline;
 }
 
 .right-column .content h2 {
@@ -290,4 +297,85 @@ html {
   font-weight: bold;
   cursor: pointer;
   border-radius: 0 5px 5px 0;
+}
+
+/* Footer section */
+
+footer {
+  background-color: white;
+  padding: 50px 20px;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-brand h2 {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  color: #f05224;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #555;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  min-width: 120px;
+}
+
+.footer-column h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social a {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.linkedin i {
+  color: #0575b3;
+  opacity: 100%;
+}
+
+.facebook i {
+  color: blue;
+  opacity: 100%;
+}
+
+.twitter i {
+  color: black;
+  opacity: 100%;
+}
+
+.youtube i {
+  color: red;
+  opacity: 100%;
 }

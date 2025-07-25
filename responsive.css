@@ -82,4 +82,19 @@
   .left-column {
     width: 100%;
   }
+
+  .footer-content-wrapper {
+    flex-direction: column !important;
+    gap: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
 }
