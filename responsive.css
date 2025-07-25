@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding: 0 16px;
+    width: 98%;
+    padding: 0 10px;
   }
 
   .navbar {
@@ -72,12 +72,14 @@
   .plant-right ul li {
     font-size: 18px;
   }
-
+  .trusted-badge {
+    display: none;
+  }
   .latest-content-wrapper {
     flex-direction: column;
   }
 
-  .trusted-badge {
-    display: none;
+  .left-column {
+    width: 100%;
   }
 }
